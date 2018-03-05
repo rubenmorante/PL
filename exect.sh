@@ -1,6 +1,15 @@
 #!/bin/bash
 
-#jflex lexico.flex
+rm parser.class
+rm parser.java
+rm sym.java
+rm sym.class
+rm AnalizadorLexico.java
+
+
+sleep 1
+
+jflex lexico.flex
 java -jar java-cup-11b.jar -dump parser.cup
 
 #export CLASSPATH=$CLASSPATH:~/MasterInformatica/2Q/SEMV/practica/java-cup-11b.jar
@@ -9,4 +18,5 @@ java -jar java-cup-11b.jar -dump parser.cup
 
 javac -Xlint Analizador.java
 
-#java Analizador test.c
+java Analizador test.c
+

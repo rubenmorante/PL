@@ -706,151 +706,151 @@ class AnalizadorLexico implements java_cup.runtime.Scanner {
             }
           case 41: break;
           case 3: 
-            { return new java_cup.runtime.Symbol(sym.div);
+            { return new Symbol(sym.div, yyline, yycolumn, yytext());
             }
           case 42: break;
           case 4: 
-            { return new java_cup.runtime.Symbol(sym.mul);
+            { return new Symbol(sym.mul, yyline, yycolumn, yytext());
             }
           case 43: break;
           case 5: 
-            { return new java_cup.runtime.Symbol(sym.tid);
+            { return new Symbol(sym.tid, yyline, yycolumn, yytext());
             }
           case 44: break;
           case 6: 
-            { return new java_cup.runtime.Symbol(sym.l_par);
+            { return new Symbol(sym.l_par, yyline, yycolumn, yytext());
             }
           case 45: break;
           case 7: 
-            { return new java_cup.runtime.Symbol(sym.r_par);
+            { return new Symbol(sym.r_par, yyline, yycolumn, yytext());
             }
           case 46: break;
           case 8: 
-            { return new java_cup.runtime.Symbol(sym.l_bracket);
+            { return new Symbol(sym.l_bracket, yyline, yycolumn, yytext());
             }
           case 47: break;
           case 9: 
-            { return new java_cup.runtime.Symbol(sym.r_bracket);
+            { return new Symbol(sym.r_bracket, yyline, yycolumn, yytext());
             }
           case 48: break;
           case 10: 
-            { return new java_cup.runtime.Symbol(sym.l_brace);
+            { return new Symbol(sym.l_brace, yyline, yycolumn, yytext());
             }
           case 49: break;
           case 11: 
-            { return new java_cup.runtime.Symbol(sym.r_brace);
+            { return new Symbol(sym.r_brace, yyline, yycolumn, yytext());
             }
           case 50: break;
           case 12: 
-            { return new java_cup.runtime.Symbol(sym.comma);
+            { return new Symbol(sym.comma, yyline, yycolumn, yytext());
             }
           case 51: break;
           case 13: 
-            { return new java_cup.runtime.Symbol(sym.semicolon);
+            { return new Symbol(sym.semicolon, yyline, yycolumn, yytext());
             }
           case 52: break;
           case 14: 
-            { return new java_cup.runtime.Symbol(sym.assig);
+            { return new Symbol(sym.assig, yyline, yycolumn, yytext());
             }
           case 53: break;
           case 15: 
-            { return new java_cup.runtime.Symbol(sym.add);
+            { return new Symbol(sym.add, yyline, yycolumn, yytext());
             }
           case 54: break;
           case 16: 
-            { return new java_cup.runtime.Symbol(sym.sub);
+            { return new Symbol(sym.sub, yyline, yycolumn, yytext());
             }
           case 55: break;
           case 17: 
-            { return new java_cup.runtime.Symbol(sym.less);
+            { return new Symbol(sym.less, yyline, yycolumn, yytext());
             }
           case 56: break;
           case 18: 
-            { return new java_cup.runtime.Symbol(sym.greater);
+            { return new Symbol(sym.greater, yyline, yycolumn, yytext());
             }
           case 57: break;
           case 19: 
-            { return new java_cup.runtime.Symbol(sym.constint);
+            { return new Symbol(sym.constint, yyline, yycolumn, yytext());
             }
           case 58: break;
           case 20: 
-            { return new java_cup.runtime.Symbol(sym.tor);
+            { return new Symbol(sym.tor, yyline, yycolumn, yytext());
             }
           case 59: break;
           case 21: 
-            { return new java_cup.runtime.Symbol(sym.tif);
+            { return new Symbol(sym.tif, yyline, yycolumn, yytext());
             }
           case 60: break;
           case 22: 
-            { return new java_cup.runtime.Symbol(sym.tdo);
+            { return new Symbol(sym.tdo, yyline, yycolumn, yytext());
             }
           case 61: break;
           case 23: 
-            { return new java_cup.runtime.Symbol(sym.equals);
+            { return new Symbol(sym.equals, yyline, yycolumn, yytext());
             }
           case 62: break;
           case 24: 
-            { return new java_cup.runtime.Symbol(sym.lessequal);
+            { return new Symbol(sym.lessequal, yyline, yycolumn, yytext());
             }
           case 63: break;
           case 25: 
-            { return new java_cup.runtime.Symbol(sym.greaterequal);
+            { return new Symbol(sym.greaterequal, yyline, yycolumn, yytext());
             }
           case 64: break;
           case 26: 
-            { return new java_cup.runtime.Symbol(sym.hfile);
+            { return new Symbol(sym.hfile, yyline, yycolumn, yytext());
             }
           case 65: break;
           case 27: 
-            { return new java_cup.runtime.Symbol(sym.tint);
+            { return new Symbol(sym.tint, yyline, yycolumn, yytext());
             }
           case 66: break;
           case 28: 
-            { return new java_cup.runtime.Symbol(sym.tnot);
+            { return new Symbol(sym.tnot, yyline, yycolumn, yytext());
             }
           case 67: break;
           case 29: 
-            { return new java_cup.runtime.Symbol(sym.tfor);
+            { return new Symbol(sym.tfor, yyline, yycolumn, yytext());
             }
           case 68: break;
           case 30: 
-            { return new java_cup.runtime.Symbol(sym.tand);
+            { return new Symbol(sym.tand, yyline, yycolumn, yytext());
             }
           case 69: break;
           case 31: 
-            { return new java_cup.runtime.Symbol(sym.constfloat);
+            { return new Symbol(sym.constfloat, yyline, yycolumn, yytext());
             }
           case 70: break;
           case 32: 
-            { return new java_cup.runtime.Symbol(sym.tvoid);
+            { return new Symbol(sym.tvoid, yyline, yycolumn, yytext());
             }
           case 71: break;
           case 33: 
-            { return new java_cup.runtime.Symbol(sym.telse);
+            { return new Symbol(sym.telse, yyline, yycolumn, yytext());
             }
           case 72: break;
           case 34: 
-            { return new java_cup.runtime.Symbol(sym.tthen);
+            { return new Symbol(sym.tthen, yyline, yycolumn, yytext());
             }
           case 73: break;
           case 35: 
-            { return new java_cup.runtime.Symbol(sym.tuntil);
+            { return new Symbol(sym.tuntil, yyline, yycolumn, yytext());
             }
           case 74: break;
           case 36: 
-            { return new java_cup.runtime.Symbol(sym.tfloat);
+            { return new Symbol(sym.tfloat, yyline, yycolumn, yytext());
             }
           case 75: break;
           case 37: 
-            { return new java_cup.runtime.Symbol(sym.twhile);
+            { return new Symbol(sym.twhile, yyline, yycolumn, yytext());
             }
           case 76: break;
           case 38: 
-            { return new java_cup.runtime.Symbol(sym.treturn);
+            { return new Symbol(sym.treturn, yyline, yycolumn, yytext());
             }
           case 77: break;
           case 39: 
-            { return new java_cup.runtime.Symbol(sym.include);
+            { return new Symbol(sym.include, yyline, yycolumn, yytext());
             }
           case 78: break;
           default:

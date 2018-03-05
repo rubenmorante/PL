@@ -1,5 +1,4 @@
-
-int
+void
 main(int argc, float argv)
 {
       int a, b;
@@ -26,16 +25,5 @@ main(int argc, float argv)
             }
       } else {
             a = 3;
-      }
-}
-
-int
-func(int bla)
-{
-      int c;
-
-      for (i = 0; i < 3; i = i + 1) {
-            int b;
-            b = 0;
       }
 }
